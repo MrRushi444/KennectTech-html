@@ -1,0 +1,359 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #047d80;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar-nav .nav-link {
+  color: #004749;
+  font-weight: bold;
+  width: 100%;
+}
+#navigation-bar {
+  width: 100%;
+}
+
+.navbar-nav .nav-link.active.book {
+  color: white;
+  background-color: #ff4261;
+  border-radius: 20px;
+  margin-left: 10px;
+  padding: 10px;
+  font-weight: semi-bold;
+}
+
+.navbar-nav .nav-link.active.login {
+  border: solid 1px black;
+  border-radius: 20px;
+  margin-left: 10px;
+  padding: 10px;
+  font-weight: semi-bold;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  margin: 0;
+  margin-left: 80px;
+}
+.column {
+  display: flex;
+  flex: 1;
+
+  justify-content: space-between;
+}
+
+.image {
+  display: flex;
+  justify-content: flex-end;
+  height: 90vh;
+}
+.content {
+  background-color: #047d80;
+  font: poppins;
+  color: white;
+  padding-left: 20px;
+}
+
+#cruseMode {
+  padding-bottom: 10px;
+}
+
+.button {
+  background-color: #ff4261;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  padding: 10px;
+  font-weight: semi-bold;
+}
+
+.corosoul .carousel {
+  width: 200px;
+  margin-left: 0;
+}
+
+.corosoul .carousel-inner {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.corosoul .carousel-item {
+  width: 100%;
+}
+
+h1 {
+  font-weight: semi-bold;
+}
+
+h2 {
+  font-weight: semi-bold;
+}
+
+h3 {
+  font-weight: semi-bold;
+}
+
+.footer {
+  display: none;
+}
+
+.textbox {
+  display: none;
+}
+.pictures1 {
+  display: none;
+}
+.pictures2 {
+  display: none;
+}
+.neon {
+  display: none;
+}
+/*for mobile*/
+
+@media (min-width: 200px) and (max-width: 600px) {
+  .container {
+    width: 100%;
+    padding-right: 5x;
+    padding-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  h1 {
+    font-size: xx-large;
+  }
+  .button {
+    display: none;
+  }
+
+  .content {
+    background-color: #047d80;
+    font: poppins;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+  }
+
+  .neon {
+    display: inline-flex;
+    color: #05f4f8;
+    font-weight: bold;
+  }
+
+  .column {
+    width: 80%;
+  }
+  h4 {
+    display: none;
+  }
+
+  .textbox {
+    display: block;
+    width: 350px;
+    height: 55px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    border-radius: 25px;
+    padding-top: 2px;
+  }
+
+  #booking {
+    position: relative;
+    display: block;
+    background-color: red;
+    color: white;
+    width: 150px;
+    height: 50px;
+    margin-left: 195px;
+    margin-top: -40px;
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+  }
+
+  .pContainer {
+    padding: 50px;
+  }
+
+  #inputText {
+    border: none;
+    margin-left: 15px;
+    margin-top: 15px;
+  }
+  .pictures1 {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .pictures2 {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .image {
+    display: none;
+  }
+
+  .corosoul .carousel {
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+
+  #carouselExampleFooter {
+    width: 100%;
+  }
+
+  .carousel-inner {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .carousel-item {
+    width: 200px;
+  }
+
+  h3 {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  .break {
+    display: none;
+  }
+}
+
+/* for tablet */
+
+@media (min-width: 600px) and (max-width: 900px) {
+  .container {
+    width: 100%;
+    padding-right: 5x;
+    padding-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35px;
+    margin-right: 20px;
+  }
+  h4 {
+    display: none;
+  }
+  .image {
+    display: none;
+  }
+  .content {
+    background-color: #047d80;
+    font: poppins;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  .button {
+    display: none;
+  }
+  .column {
+    width: 80%;
+  }
+
+  .image {
+    display: none;
+  }
+
+  .corosoul .carousel {
+    display: none;
+  }
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+
+  #carouselExampleFooter {
+    width: 100%;
+  }
+
+  .carousel-inner {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .carousel-item {
+    width: 200px;
+  }
+  h3 {
+    text-align: center;
+  }
+  .break {
+    display: none;
+  }
+  .pictures1 {
+    display: flex;
+    justify-content: space-around;
+  }
+  .pictures2 {
+    display: flex;
+    justify-content: space-around;
+  }
+  .textbox {
+    display: block;
+    width: 350px;
+    height: 55px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    border-radius: 25px;
+    padding-top: 2px;
+  }
+
+  #booking {
+    position: relative;
+    display: block;
+    background-color: red;
+    color: white;
+    width: 150px;
+    height: 50px;
+    margin-left: 195px;
+    margin-top: -40px;
+    border-radius: 25px;
+    border: none;
+  }
+
+  #inputText {
+    border: none;
+    margin-left: 15px;
+    margin-top: 15px;
+  }
+  .neon {
+    display: inline-flex;
+    color: #05f4f8;
+    font-weight: bold;
+  }
+}
